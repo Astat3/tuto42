@@ -1,0 +1,20 @@
+tuto pour la memoire
+
+the computer finds room for everything --> int = 4bytes etc..
+
+the adress got an hexadecimal location,
+def pointer: a variable that store the adress of something 
+new syntax:
+	& = adress of the operator 
+	* the dereference operator -> get the value
+	int *p = &n
+	printf('%p', p), give the adress of n --> with hexaD value
+We use %p to print the pointer 
+adresses changes every time you run the code.
+Pointers are 64bites
+
+
+so in the memory slot of the computer, the value of p is the adress of n;
+and the pointers also have his own adress,  
+
+	
