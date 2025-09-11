@@ -1,0 +1,9 @@
+strings are array, so we can figure out the exact location of each part of the strings
+the elements of the string are one bite appart.
+
+&s = &s[0]
+and then we increment by one from the &s[0] adress, to the null char \0, 
+
+so a char *s is a string
+
+
