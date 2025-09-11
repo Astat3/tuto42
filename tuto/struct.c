@@ -6,7 +6,7 @@ typedef struct
 	char	name;
 	char	num;
 
-}person;
+}person;/*nom de la struct*/
 
 void ft_putchar(char c)
 {
@@ -16,10 +16,10 @@ void ft_putchar(char c)
 
 int main(void)
 {
-	person people;	
-	people.name = 'a';
+	person people; /*declaration de la struct*/	
+	people.name = 'a'; /*assignation*/
 	people.num = '5';
-	ft_putchar(people.num);
+	ft_putchar(people.num); /*Affichage de la struct*/
 	return 0;
 	
 }
