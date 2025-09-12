@@ -1,0 +1,22 @@
+ca permet de contrer le fait qu'en c arguments are passed by value, comme l'histoire de swap,
+utilisation de pointers permet d'aller a l'adress de la variable pour modidier sa valeur
+
+memory allocated to a progamm is divided by 
+	heap
+	stack -> for local variable and function executions 
+	static/global
+	code
+
+heap / stack allocated to be a free store 
+
+when we compile, the first segment of stack memory is allocated to main (into stack), when main has 
+to execute a function, more memory is allocated into the an other part of the stack. When the function
+is not needed anymore in c, the memory will be dealocated so we can use the part for an an other function
+
+
+but anything in the heap or in the global variable will not be de alocated. We can specify the compil
+er to store in heap by using the malloc commad.
+
+
+
+ 

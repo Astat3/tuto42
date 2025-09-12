@@ -6,7 +6,7 @@
 /*   By: agallot <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/11 14:30:58 by agallot           #+#    #+#             */
-/*   Updated: 2025/09/11 19:09:52 by agallot          ###   ########.fr       */
+/*   Updated: 2025/09/12 11:43:34 by agallot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	ft_putstr(char *str)
 	int	count;
 
 	count = 0;
-	while (str[count] != '\0')
+	while (str[count] != '\0')// quand on parcour un array avec un pointeur --> a[i] = *(a[i])
 	{
 		count++;
 	}

@@ -1,0 +1,33 @@
+Dynamic memory allocation / library <stdlib.h>
+
+
+our programm is stock in the ram memory:
+	variable has memory adress,
+	block unused 
+
+stack Vs Heap 
+	stack 
+		regular variable/function, using it without paying attention
+		other functions, 
+		when a function is not needed, the memory is delocated 
+		all data has a fixed sized that does not change
+			contrast to the heap
+	
+	heap 
+		dynamic memory allocation
+		resize block while the programm is running
+		not delocated
+		block are not in order as they would be on a stack 
+		we can contol how we free space 
+		heap using malloc / calloc 
+		malloc 
+			allocates the number_of_bytes worth of space on the heap
+			return a void pointer
+				Ex:  creating dynamic array
+			int *a = malloc(n),	
+				n the number of bytes allocated in the heap 
+				return a memory adress hold by a 
+			when we done, we have to free the data  using free(a)
+			the heap could become full and occurs memory leak
+
+
