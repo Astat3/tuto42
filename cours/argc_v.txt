@@ -1,0 +1,11 @@
+commad line argument 
+
+
+int main(int argc, char * argv[])
+
+
+argc --> tell you how many elemets are in argv
+
+
+we dont care about argv[0] because it is the name of the programm
+
