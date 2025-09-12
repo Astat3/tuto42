@@ -1,33 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agallot <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/11 14:30:58 by agallot           #+#    #+#             */
-/*   Updated: 2025/09/11 14:54:28 by agallot          ###   ########.fr       */
+/*   Created: 2025/09/10 10:56:33 by agallot           #+#    #+#             */
+/*   Updated: 2025/09/10 18:13:32 by agallot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<stdio.h>
+
 #include <unistd.h>
 
-void	ft_putstr(char *str)
-{
-	int count; 
+void	ft_print_alphabet(void)
 
-	count = 0;
-	while(str[count] != '\0')
+{
+	int	c;
+
+	c = 97;
+	while (c <= 122)
 	{
-		count++;
+		write(1, &c, 1);
+		c++;
 	}
-
-	write(1, str, count);
-}
-
-
-int main(void)
-{
-	char *s = "Bonjour";
-	ft_putstr(s);
 }
