@@ -12,8 +12,6 @@
 #include<stdio.h>
 #include <unistd.h>
 
-typedef char *string;
-
 void	ft_putstr(char *str)
 {
 	int count; 
@@ -30,6 +28,6 @@ void	ft_putstr(char *str)
 
 int main(void)
 {
-	string *s = "Bonjour";
+	char *s = "Bonjour";
 	ft_putstr(s);
 }
