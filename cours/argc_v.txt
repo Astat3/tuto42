@@ -9,3 +9,6 @@ argc --> tell you how many elemets are in argv
 
 we dont care about argv[0] because it is the name of the programm
 
+there is also char *env[] to see the environenment variable
+:wq
+
