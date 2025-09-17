@@ -1,0 +1,12 @@
+i1s_space function is composed by 4 kind of white char 
+	man 3 is_space to see them 
+
+
+atoi 
+	first skip the white char by recoding is space function
+	ASCII code from 9 to 13 ou 32= espace 
+		while loop 
+	find if we have an odd or even number of minus sign 
+	number *= 10 pour move aside each time you have a new number 
+	from char to int = n - 48
+
