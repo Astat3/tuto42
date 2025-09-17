@@ -6,7 +6,7 @@
 /*   By: agallot <agallot@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/17 04:44:28 by agallot           #+#    #+#             */
-/*   Updated: 2025/09/17 05:01:39 by agallot          ###   ########.fr       */
+/*   Updated: 2025/09/17 15:10:36 by agallot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int ft_sqrt(int nb)
 	if (nb <= 0)
 		return (0);
 	i = 0;
-	while(i < nb / 2)
+	while(i* i <= nb)
 	{
 		if (i * i == nb)
 			return (i);
@@ -30,6 +30,6 @@ int ft_sqrt(int nb)
 
 int main()
 {
-	printf("%d\n", ft_sqrt(2025000000));
+	printf("%d\n", ft_sqrt(29));
 	return (0);
 }
