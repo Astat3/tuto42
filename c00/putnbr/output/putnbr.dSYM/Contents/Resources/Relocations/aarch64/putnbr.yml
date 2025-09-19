@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/adamgallot/tuto42/c00/putnbr/output/putnbr'
+relocations:     []
+...
